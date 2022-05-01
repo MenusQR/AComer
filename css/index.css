@@ -1,0 +1,262 @@
+body{
+    background-color: #fbae27;
+    scroll-behavior: smooth;
+}
+/* Imagen Grande Pantalla */
+
+.img-lg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+/* Navbar menu */
+.menu{
+    width: 100%;
+    background-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 1%;
+}
+
+.nav-menu{
+    text-align: center;
+    bottom: 0%;
+}
+
+.img-menu{
+    margin-top: 0%;
+    padding: 0px;
+    height: 25px;
+}
+
+.link-menu{
+    color: #ffff;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 2.5% 10px;
+}
+
+.link-menu:hover{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.logo-nav-img{
+    height: 50px;
+}
+
+.logo-nav{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* Proteinas en circulos */
+
+.ingredientes{
+    margin-top: 75px;
+    text-align: center;
+}
+
+.div-proteina{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.link-proteina{
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.proteina{
+    color: rgb(20, 20, 20);
+    font-family: Onyx;
+    letter-spacing: 1px;
+}
+
+.proteina:hover{
+    text-decoration: none;
+    color: black;
+    /* font-weight: bold; */
+    text-shadow: 1px 1px rgb(255, 255, 255);
+}
+
+/* Imagen "Almuerzos como en casa" */
+.img-div{
+    padding-top: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.img-almuerzos{
+    height: px;
+} 
+
+/* Carrusel platos MENU DEL DIA*/
+
+.carrusel-row{
+    background-color: #d92129;
+    margin-top: 3%;
+}
+
+.carrusel-platos{
+    padding-top: 3%;
+}
+
+.foto-carrusel{
+    padding-right: 6px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.5rem;
+}
+
+.carrusel{
+    overflow-x:auto;
+}
+
+.carrusel::-webkit-scrollbar {
+    display: none;
+}
+
+.menu-del-dia{
+    color: #ffff;
+    margin-top: 1.5%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+/* Carrusel PLATOS NUEVOS*/
+
+.carrusel-row2{
+    background-color: #0e0e0e;
+    margin-top: 3%;
+}
+
+.carrusel-platos2{
+    padding-top: 3%;
+}
+
+.foto-carrusel2{
+    color: rgb(230, 230, 230);
+    padding-right: 6px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.5rem;
+}
+
+.carrusel2{
+    overflow-x:auto;
+    
+}
+
+.carrusel2::-webkit-scrollbar {
+    display: none;
+}
+
+.platos-nuevos{
+    color: #ffff;
+    margin-top: 1.5%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+/* MENU */
+
+.menu-titulo{
+    font-family: montserrat;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+}
+
+.categoria-titulo{
+    font-family: montserrat;
+    font-size: 23px;
+    color: black;
+    font-weight: 900;
+    letter-spacing: 18px;
+    text-align: center;
+}
+
+/* Almuerzos */
+
+.menu-imagenes{
+    text-align: center;
+}
+
+.foto-plato1{
+    height: 22vh;
+}
+
+.col-imagenes{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.imagen-menu{
+    font-family: montserrat;
+    color: black;
+    font-weight: 500px;
+
+}
+
+/* Light Box Animacion */
+
+.light-box{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.5);
+    transition: transform .3s ease-in-out;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+}
+.light-box img {
+    width: 75vw;
+    max-height: 70vh;
+}
+
+.light-box:target{
+    transform: scale(1);
+}
+
+.descripcion-plato{
+    padding-left: 4%;
+    padding-right: 4%;
+    position: absolute;
+    top: 102vw;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #ffff;
+    font-weight: 300;
+}
+
+.close{
+    display: block;
+    position: absolute;
+    top: 105px;
+    right: 20px;
+    background: rgb(133, 25, 25);
+    color: #ffff;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 50%;
+}
+
+/* PIE DE PAGINA */
+.footter{
+    margin-top: 20px;
+    height: 50px;
+    background-color: aquamarine;
+}
